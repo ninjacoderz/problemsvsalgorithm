@@ -70,6 +70,16 @@ def test_function(test_case):
     else:
         print("Fail")
 
+
+# Test 1
+print(rotated_array_search([], 5))
+
+# Test 2
+print(rotated_array_search(None, 4))
+
+# Test 3
+print(rotated_array_search([10], 10))
+
 test_function([[6, 7, 8, 9, 10, 1, 2, 3, 4], 6])
 test_function([[6, 7, 8, 9, 10, 1, 2, 3, 4], 1])
 test_function([[6, 7, 8, 1, 2, 3, 4], 8])
